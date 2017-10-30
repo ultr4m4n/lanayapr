@@ -11,3 +11,4 @@ Lanaya is a **start up event management system**. Developed the website to allow
 * Create your own events and watch your followers
 * Check attendees for your event's followers
 * Get notified for the event you followed
+* Create your events and post it live so others could see it and follow!
