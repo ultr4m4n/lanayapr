@@ -16,8 +16,8 @@ class CreateFollowersTable extends Migration
         Schema::create('followers',function ($table)
         {   
             $table->increments('id');
-            $table->integer('user_id');
-            $table->integer('card_id');
+            $table->integer('user_id')->unsigned();
+            $table->integer('card_id')->unsigned();
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phoneno')->nullable();

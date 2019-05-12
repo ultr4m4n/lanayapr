@@ -20,10 +20,7 @@ class CreateCardsTable extends Migration
             $table->date('date_start');
             $table->date('date_end');
             $table->time('sunrise')->nullable();
-            $table->time('sunset')->nullable();
             $table->string('location');
-            $table->double('lat');
-            $table->double('lng');
             $table->integer('live')->default('0');
             $table->string('category');
             $table->unsignedInteger('user_id')->index();
